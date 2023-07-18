@@ -6,15 +6,16 @@ export const Header = () => (
     sx={{
       padding: "60px 0",
       marginBottom: "20px",
-      backgroundColor: "primary.dark",
+      backgroundColor: "primary.main",
+      color: "white",
     }}
   >
-    <Container maxWidth="md">
+    <Container maxWidth="lg">
       <Typography variant="subtitle1" gutterBottom>
-        備忘録
+        緑を愛するwebエンジニアの
       </Typography>
       <Typography variant="h4" component="h1">
-        のほほんエンジニアブログ
+        Engineering Blog
       </Typography>
     </Container>
   </Box>

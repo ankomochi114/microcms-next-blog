@@ -12,7 +12,7 @@ type Props = {
 export default function BlogId({ article }: Props) {
   return (
     <main>
-      <Container className="bg-white" maxWidth="sm">
+      <Container className="bg-white" maxWidth="md">
         <Typography variant="h5" gutterBottom>
           {article.title}
         </Typography>
